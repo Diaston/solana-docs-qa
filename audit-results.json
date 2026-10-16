@@ -1,0 +1,108 @@
+{
+  "audit": "jito-docs-static-phrase-audit",
+  "started_at_utc": "2026-10-16T13:53:39.631385+00:00",
+  "scope": "Four fixed public documentation URLs, sequential read-only GETs; no cookies, credentials, retries, or redirects",
+  "limitation": "Keyword matches cannot prove a bug, current UI or fee configuration, transaction behavior, or payment eligibility.",
+  "timeout_seconds": 10.0,
+  "max_response_bytes": 2097152,
+  "pages": [
+    {
+      "id": "unstaking_overview",
+      "url": "https://www.jito.network/docs/jitosol/get-started/unstaking-jitosol-flow/unstaking-overview/",
+      "http_status": 200,
+      "title": "Unstaking Overview | Jito Foundation",
+      "extraction_scope": "body_fallback",
+      "text_characters": 5884,
+      "text_sha256": "3cdefb3136f7d3988ef48d897f948d6c9d379699029d73c10891582b797f5a71",
+      "phrase_counts": {
+        "Jupiter": 8,
+        "DFlow": 0,
+        "0.1%": 4,
+        "4%": 0,
+        "10 bps": 0,
+        "epoch": 4,
+        "deactivate": 6,
+        "withdraw": 6,
+        "2 days": 6,
+        "2-3 days": 0,
+        "rewards": 2,
+        "validator commissions": 0
+      },
+      "error": null
+    },
+    {
+      "id": "general_faqs",
+      "url": "https://www.jito.network/docs/jitosol/faqs/general-faqs/",
+      "http_status": 200,
+      "title": "General FAQs | Jito Foundation",
+      "extraction_scope": "body_fallback",
+      "text_characters": 6931,
+      "text_sha256": "783422bead14be446b35f2f67203508f21b6a4720c17be6095af5e2c3ae8188b",
+      "phrase_counts": {
+        "Jupiter": 3,
+        "DFlow": 0,
+        "0.1%": 1,
+        "4%": 1,
+        "10 bps": 1,
+        "epoch": 3,
+        "deactivate": 0,
+        "withdraw": 3,
+        "2 days": 2,
+        "2-3 days": 0,
+        "rewards": 19,
+        "validator commissions": 2
+      },
+      "error": null
+    },
+    {
+      "id": "technical_faqs",
+      "url": "https://www.jito.network/docs/jitosol/faqs/technical-faqs/",
+      "http_status": 200,
+      "title": "Technical FAQs | Jito Foundation",
+      "extraction_scope": "body_fallback",
+      "text_characters": 14500,
+      "text_sha256": "60177723ddc837e3c0139bb0352955ea0ca9999b5f604ed5712f80bb060887d0",
+      "phrase_counts": {
+        "Jupiter": 4,
+        "DFlow": 0,
+        "0.1%": 1,
+        "4%": 0,
+        "10 bps": 0,
+        "epoch": 22,
+        "deactivate": 1,
+        "withdraw": 2,
+        "2 days": 1,
+        "2-3 days": 1,
+        "rewards": 37,
+        "validator commissions": 1
+      },
+      "error": null
+    },
+    {
+      "id": "glossary",
+      "url": "https://www.jito.network/docs/jitosol/resources/jitosol-glossary/",
+      "http_status": 200,
+      "title": "JitoSOL Glossary | Jito Foundation",
+      "extraction_scope": "body_fallback",
+      "text_characters": 7602,
+      "text_sha256": "de4c90bdab2024f84ea5de82d2b62f0fe14b128098c42801d4cd3ba0d7369b10",
+      "phrase_counts": {
+        "Jupiter": 1,
+        "DFlow": 0,
+        "0.1%": 1,
+        "4%": 1,
+        "10 bps": 0,
+        "epoch": 4,
+        "deactivate": 0,
+        "withdraw": 1,
+        "2 days": 0,
+        "2-3 days": 2,
+        "rewards": 13,
+        "validator commissions": 2
+      },
+      "error": null
+    }
+  ],
+  "finished_at_utc": "2026-10-16T13:53:54.379522+00:00",
+  "successful_pages": 4
+}
